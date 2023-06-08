@@ -19,6 +19,6 @@ temp = (temp - 273.15) * (9 / 5) + 32
 weather = data['weather'][0]['description']
 humidity = data['main']['humidity']
 
-print(f"\nTemperature: {round(temp, 1)}%")
+print(f"\nTemperature: {round(temp, 1)} f")
 print(f"Weather: {weather}")
 print(f"Humidity: {humidity}%")
